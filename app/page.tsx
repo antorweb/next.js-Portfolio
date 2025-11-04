@@ -4,6 +4,7 @@ import About from '../app/components/About'
 import Skills from '../app/components/Skills'
 import Contact from '../app/components/Contact'
 import Testimonials from '../app/components/Testimonials'
+import Experience from '../app/components/Experience'
 
 const page = () => {
   return (
@@ -12,7 +13,7 @@ const page = () => {
     <Banner />
     <About />
     <Skills />
-    <Expre
+    <Experience />
     <Testimonials />
     <Contact />
     
