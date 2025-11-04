@@ -11,8 +11,10 @@ const Work = () => {
     <section id='work' className='py-[96px]'>
         <div className="container">
              <CommonHead comH2={'Work'} comP={'Here is a quick summary of my most recent experiences:'} />
-            <div>
+            <div className='mt-[48px] flex flex-col justify-center items-center gap-[48px]'>
 
+                <WorkCommon />
+                <WorkCommon />
                 <WorkCommon />
 
             </div>
