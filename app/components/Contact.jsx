@@ -13,7 +13,7 @@ const Contact = () => {
     <>
     
     
-    <section id='contact' className='py-[96px]'>
+    <section id='contact' className='py-24'>
         <div className="container">
           
           <div className='flex justify-center'>
@@ -30,7 +30,7 @@ const Contact = () => {
               <h4>You may also find me on these platforms!</h4>
 
 
-     <div className="flex justify-center items-center gap-5 mt-[8px]">
+     <div className="flex justify-center items-center gap-5 mt-2">
                 <Link href={"/"} className="text-[24px]">
                   <FiGithub />
                 </Link>
@@ -41,19 +41,7 @@ const Contact = () => {
                   <FaFigma />
                 </Link>
               </div>
-
-
-
-
-
             </div>
-
-
-
-
-
-
-
         </div>
     </section>
     

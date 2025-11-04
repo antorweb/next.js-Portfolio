@@ -12,7 +12,7 @@ const Skills = () => {
   return (
     <>
 
-    <section id='skill' className='py-[96px]'>
+    <section id='skill' className='py-24'>
         <div className="container">
             <CommonHead comH2={'Skills'} comP={'The skills, tools and technologies I am really good at:'} />
             <div className='flex items-center justify-between mt-24'>

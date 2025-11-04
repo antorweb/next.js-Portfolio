@@ -6,10 +6,10 @@ const Testimonials = () => {
   return (
     <>
     
-    <section id='Testimonials' className='bg-[#F9FAFB] py-[96px]'>
+    <section id='Testimonials' className='bg-[#F9FAFB] py-24'>
         <div className="container">
             <CommonHead comH2={'Testimonials'} comP={'Nice things people have said about me:'} />
-            <div className='flex items-center mt-24 gap-[48px] justify-center'>
+            <div className='flex items-center mt-24 gap-12 justify-center'>
 
          <TestCommon />
          <TestCommon />
