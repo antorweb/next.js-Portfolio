@@ -12,7 +12,26 @@ const WorkCommon = () => {
 
         {/* ------------ right-content */}
         <h3 className='text-[20px] font-semibold font-main text-main'>Fiskil</h3>
-        <div className='w-[480px] my-[24px]'><p className='text-[16px] font-normal font-main text-main'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</p></div>
+        <div className='w-[480px] my-[24px]'><p className='text-[16px] font-normal font-main text-main'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</p>
+
+
+<div className='flex'>
+
+
+        <div className='max-w-none px-[20px] py-[4px] flex justify-center mb-8 rounded-2xl bg-[#E5E7EB]'><h1 className='text-[16px] font-medium font-main text-primary'>React</h1></div>
+        <div className='px-[20px] py-[4px] flex justify-center mb-8 rounded-2xl bg-[#E5E7EB]'><h1 className='text-[16px] font-medium font-main text-primary'>Next.js</h1></div>
+        <div className='px-[20px] py-[4px] flex justify-center mb-8 rounded-2xl bg-[#E5E7EB]'><h1 className='text-[16px] font-medium font-main text-primary'>Typescript</h1></div>
+        <div className='px-[20px] py-[4px] flex justify-center mb-8 rounded-2xl bg-[#E5E7EB]'><h1 className='text-[16px] font-medium font-main text-primary'>Nest.js</h1></div>
+        <div className='px-[20px] py-[4px] flex justify-center mb-8 rounded-2xl bg-[#E5E7EB]'><h1 className='text-[16px] font-medium font-main text-primary'>PostgreSQL</h1></div>
+        <div className='px-[20px] py-[4px] flex justify-center mb-8 rounded-2xl bg-[#E5E7EB]'><h1 className='text-[16px] font-medium font-main text-primary'>React</h1></div>
+        <div className='px-[20px] py-[4px] flex justify-center mb-8 rounded-2xl bg-[#E5E7EB]'><h1 className='text-[16px] font-medium font-main text-primary'>React</h1></div>
+        <div className='px-[20px] py-[4px] flex justify-center mb-8 rounded-2xl bg-[#E5E7EB]'><h1 className='text-[16px] font-medium font-main text-primary'>React</h1></div>
+        <div className='px-[20px] py-[4px] flex justify-center mb-8 rounded-2xl bg-[#E5E7EB]'><h1 className='text-[16px] font-medium font-main text-primary'>React</h1></div>
+</div>
+        
+        
+        
+        </div>
     </div>
   )
 }
