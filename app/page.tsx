@@ -12,6 +12,7 @@ const page = () => {
     <Banner />
     <About />
     <Skills />
+    <Expre
     <Testimonials />
     <Contact />
     
