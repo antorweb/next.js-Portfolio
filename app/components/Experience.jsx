@@ -9,11 +9,13 @@ const Experience = () => {
     
     
 
-    <section>
+    <section className='py-[96px] '>
         <div className="container">
             <CommonHead comH2={'Experience'} comP={'Here is a quick summary of my most recent experiences:'} />
-            <div>
+            <div className='mt-12 flex justify-center items-center flex-col gap-12'>
 
+                <ExperienceCommon />
+                <ExperienceCommon />
                 <ExperienceCommon />
 
             </div>
