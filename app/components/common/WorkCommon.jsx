@@ -15,7 +15,7 @@ const WorkCommon = () => {
         <div className='w-[480px] my-[24px]'><p className='text-[16px] font-normal font-main text-main'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</p>
 
 
-<div className='flex'>
+<div className='w-[480px] flex flex-wrap gap-[8px]'>
 
 
         <div className='max-w-none px-[20px] py-[4px] flex justify-center mb-8 rounded-2xl bg-[#E5E7EB]'><h1 className='text-[16px] font-medium font-main text-primary'>React</h1></div>
@@ -23,10 +23,12 @@ const WorkCommon = () => {
         <div className='px-[20px] py-[4px] flex justify-center mb-8 rounded-2xl bg-[#E5E7EB]'><h1 className='text-[16px] font-medium font-main text-primary'>Typescript</h1></div>
         <div className='px-[20px] py-[4px] flex justify-center mb-8 rounded-2xl bg-[#E5E7EB]'><h1 className='text-[16px] font-medium font-main text-primary'>Nest.js</h1></div>
         <div className='px-[20px] py-[4px] flex justify-center mb-8 rounded-2xl bg-[#E5E7EB]'><h1 className='text-[16px] font-medium font-main text-primary'>PostgreSQL</h1></div>
-        <div className='px-[20px] py-[4px] flex justify-center mb-8 rounded-2xl bg-[#E5E7EB]'><h1 className='text-[16px] font-medium font-main text-primary'>React</h1></div>
-        <div className='px-[20px] py-[4px] flex justify-center mb-8 rounded-2xl bg-[#E5E7EB]'><h1 className='text-[16px] font-medium font-main text-primary'>React</h1></div>
-        <div className='px-[20px] py-[4px] flex justify-center mb-8 rounded-2xl bg-[#E5E7EB]'><h1 className='text-[16px] font-medium font-main text-primary'>React</h1></div>
-        <div className='px-[20px] py-[4px] flex justify-center mb-8 rounded-2xl bg-[#E5E7EB]'><h1 className='text-[16px] font-medium font-main text-primary'>React</h1></div>
+        <div className='px-[20px] py-[4px] flex justify-center mb-8 rounded-2xl bg-[#E5E7EB]'><h1 className='text-[16px] font-medium font-main text-primary'>Tailwindcss</h1></div>
+        <div className='px-[20px] py-[4px] flex justify-center mb-8 rounded-2xl bg-[#E5E7EB]'><h1 className='text-[16px] font-medium font-main text-primary'>Figma</h1></div>
+        <div className='px-[20px] py-[4px] flex justify-center mb-8 rounded-2xl bg-[#E5E7EB]'><h1 className='text-[16px] font-medium font-main text-primary'>Cypress</h1></div>
+        <div className='px-[20px] py-[4px] flex justify-center mb-8 rounded-2xl bg-[#E5E7EB]'><h1 className='text-[16px] font-medium font-main text-primary'>Storybook</h1></div>
+        <div className='px-[20px] py-[4px] flex justify-center mb-8 rounded-2xl bg-[#E5E7EB]'><h1 className='text-[16px] font-medium font-main text-primary'>Git</h1></div>
+
 </div>
         
         
