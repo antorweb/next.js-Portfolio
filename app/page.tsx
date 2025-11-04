@@ -5,6 +5,7 @@ import Skills from '../app/components/Skills'
 import Contact from '../app/components/Contact'
 import Testimonials from '../app/components/Testimonials'
 import Experience from '../app/components/Experience'
+import Work from '../app/components/Work'
 
 const page = () => {
   return (
@@ -14,6 +15,7 @@ const page = () => {
     <About />
     <Skills />
     <Experience />
+    <Work />
     <Testimonials />
     <Contact />
     
