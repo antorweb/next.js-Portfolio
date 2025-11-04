@@ -4,25 +4,27 @@ import { SlLocationPin } from "react-icons/sl";
 import { FiGithub } from "react-icons/fi";
 import { FiTwitter } from "react-icons/fi";
 import { FaFigma } from "react-icons/fa6";
-import bannerImg from "../../public/images/Pic Container.png";
 import Image from "next/image";
+
+// Use public folder path for images
+const bannerImg = "/images/Pic Container.png";
 
 const Banner = () => {
   return (
     <>
-      <section id="banner" className="py-[96px]">
+      <section id="banner" className="py-24">
         <div className="container">
-          <div className="flex items-center  justify-between">
+          <div className="flex items-center justify-between">
             {/* ------------- left side */}
 
             <div>
               <h1 className="text-[60px] font-bold font-main text-main">
                 {" "}
-                Hi, I’m Sagar 👋
+                Hi, I&#39;m Sagar 👋
               </h1>
-              <div className="w-[768px] mt-4 mb-24">
+              <div className="w-3xl mt-4 mb-24">
                 <p className="text-[16px] font-normal font-main text-primary">
-                  I'm a full stack developer (React.js & Node.js) with a focus
+                  I&#39;m a full stack developer
                   on creating (and occasionally designing) exceptional digital
                   experiences that are fast, accessible, visually appealing, and
                   responsive. Even though I have been creating web applications
