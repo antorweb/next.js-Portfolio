@@ -1,0 +1,23 @@
+/* ------font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+
+@import "tailwindcss";
+
+
+@utility container {
+  margin-inline: auto;
+
+}
+
+@theme{
+  --font-main: "Inter", sans-serif;
+
+/* ----------- color */
+--color-main: #111827;
+  --color-primary: #4B5563;
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
