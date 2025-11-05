@@ -13,7 +13,7 @@ const Contact = () => {
     <>
     
     
-    <section id='contact' className='py-24'>
+    <section id='contact' className='py-24 dark:bg-black'>
         <div className="container">
           
           <div className='flex justify-center'>
@@ -23,21 +23,21 @@ const Contact = () => {
 
             <div className='mt-24 text-center'>
 
-              <div className='flex justify-center items-center gap-10'><LuMail className='text-[36px]' /><h2 className='text-[36px] font-semibold font-main text-main'> reachsagarshah@gmail.com</h2></div>
-              <div className='flex justify-center items-center gap-10 mt-9 mb-25'><LuPhone className='text-[36px]' /><h2 className='text-[36px] font-semibold font-main text-main'> +91 8980500565</h2></div>
+              <div className='flex justify-center items-center gap-10'><LuMail className='text-[36px] dark:text-white' /><h2 className='text-[36px] dark:text-white font-semibold font-main text-main'> reachsagarshah@gmail.com</h2></div>
+              <div className='flex justify-center items-center gap-10 mt-9 mb-25'><LuPhone className='text-[36px] dark:text-white' /><h2 className='text-[36px] dark:text-white font-semibold font-main text-main'> +91 8980500565</h2></div>
 
 
-              <h4>You may also find me on these platforms!</h4>
+              <h4 className='dark:text-white'>You may also find me on these platforms!</h4>
 
 
      <div className="flex justify-center items-center gap-5 mt-2">
-                <Link href={"/"} className="text-[24px]">
+                <Link href={"/"} className="text-[24px] dark:text-white">
                   <FiGithub />
                 </Link>
-                <Link href={"/"} className="text-[24px]">
+                <Link href={"/"} className="text-[24px] dark:text-white">
                   <FiTwitter />
                 </Link>
-                <Link href={"/"} className="text-[24px]">
+                <Link href={"/"} className="text-[24px] dark:text-white">
                   <FaFigma />
                 </Link>
               </div>

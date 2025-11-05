@@ -8,13 +8,13 @@ const Work = () => {
     <>
     
     
-    <section id='work' className='py-[96px]'>
+    <section id='work' className='py-[96px] dark:bg-main'>
         <div className="container">
              <CommonHead comH2={'Work'} comP={'Here is a quick summary of my most recent experiences:'} />
             <div className='mt-[48px] flex flex-col justify-center items-center gap-[48px]'>
 
-                <WorkCommon />
-                <WorkCommon />
+                <WorkCommon  />
+                <WorkCommon flexDirection={'flex-row-reverse'} />
                 <WorkCommon />
 
             </div>
